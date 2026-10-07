@@ -1,0 +1,41 @@
+# WordPress configuration
+wp-config.php
+php.ini
+user.ini
+
+# WordPress runtime / generated files
+/wp-content/uploads/
+/wp-content/updraft/
+/wp-content/wflogs/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/upgrade-temp-backup/
+/wp-content/debug.log
+/wp-content/ai1wm-backups/
+/wp-content/backups-dup-lite/
+/wp-content/litespeed/
+/wp-content/maintenance/
+/wp-content/object-cache-backup.php
+/wp-content/.litespeed_conf.dat
+
+# WordPress generated logs
+*.log
+
+# Unused default themes
+/wp-content/themes/twentytwentyone/
+/wp-content/themes/twentytwentytwo/
+/wp-content/themes/twentytwentythree/
+/wp-content/themes/twentytwentyfive/
+/wp-content/themes/twentytwentysix/
+
+# Example plugin
+/wp-content/plugins/hello.php
+
+# Local/server configuration
+/.htaccess
+local-xdebuginfo.php
+nginx.conf
+
+# LocalWP
+/.envrc
+/sql/
